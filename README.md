@@ -1,4 +1,4 @@
-# pycloudlib Documentation
+# pyweatherlite Documentation
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/Terre8055/pycloudlib.svg)](https://github.com/Terre8055/pycloudlib/stargazers)
@@ -20,7 +20,7 @@ A lightweight Python library to extract weather data from OpenWeatherMap.
 
 ## Introduction
 
-`pycloudlib` is a simple and easy-to-use Python library that allows you to retrieve weather data from OpenWeatherMap. It provides convenient methods to access various weather attributes such as temperature, humidity, pressure, wind speed, and more.
+`pyweatherlite` is a simple and easy-to-use Python library that allows you to retrieve weather data from OpenWeatherMap. It provides convenient methods to access various weather attributes such as temperature, humidity, pressure, wind speed, and more.
 
 Key features:
 
@@ -30,19 +30,19 @@ Key features:
 
 ## Installation
 
-You can install `pycloudlib` using `pip`:
+You can install `pyweatherlite` using `pip`:
 
 
 ## Usage
 
 ### Getting Started
 
-To use `pycloudlib`, you'll need to sign up for an API key from OpenWeatherMap (https://openweathermap.org/api). Once you have the API key, you can use the library to retrieve weather data for various attributes.
+To use `pyweatherlite`, you'll need to sign up for an API key from OpenWeatherMap (https://openweathermap.org/api). Once you have the API key, you can use the library to retrieve weather data for various attributes.
 
 Here's a simple example to get the current temperature:
 
 ```python
-from pycloudlib.index import Scaffold, LegacyScaffold
+from pyweatherlite.index import Scaffold, LegacyScaffold
 
 # Set your OpenWeatherMap API key and City
 api_key = "YOUR_API_KEY"
