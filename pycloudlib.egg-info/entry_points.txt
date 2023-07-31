@@ -1,3 +1,0 @@
-[console_scripts]
-pycloudlib = pycloudlib.index:main
-
