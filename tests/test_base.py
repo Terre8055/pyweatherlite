@@ -1,5 +1,5 @@
 import unittest
-from src.pycloudlibTest_Terre8055.Base import BaseClass
+from src.pyweatherlite.Base import BaseClass
 
 
 class TestBaseClass(unittest.TestCase):
