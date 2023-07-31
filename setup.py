@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'pycloudlib = pycloudlib_Terre8055.index:main',
+            'pycloudlib = pycloudlib.index:main',
         ],
     },
     # Other metadata like author, description, etc.
