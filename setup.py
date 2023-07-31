@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pycloudlib',
+    name='pycloudlibTest_Terre8055',
     version='0.0.1',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'pycloudlib = pycloudlib.index:main',
+            'pycloudlib = pycloudlibTest_Terre8055.index:main',
         ],
     },
     # Other metadata like author, description, etc.

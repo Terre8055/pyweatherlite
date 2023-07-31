@@ -15,7 +15,6 @@ def fetch_weather_data(func):
         # Check if the request was successful
         if response.status_code == 200:
             data = response.json()
-            print(data)
             return func(self, data, *args, **kwargs)
         else:
             print(f"Failed to fetch weather data. Status code: {response.status_code}")

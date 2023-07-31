@@ -1,6 +1,6 @@
 import unittest
-from src.pycloudlib.helpers import SetContextData
-from src.pycloudlib.Base import BaseClass
+from src.pycloudlibTest_Terre8055.helpers import SetContextData
+from src.pycloudlibTest_Terre8055.Base import BaseClass
 
 class TestHelpers(unittest.TestCase):
     """Class testcases for helper procedures"""

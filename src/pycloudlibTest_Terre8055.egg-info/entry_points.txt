@@ -1,0 +1,3 @@
+[console_scripts]
+pycloudlib = pycloudlibTest_Terre8055.index:main
+

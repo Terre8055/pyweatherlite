@@ -1,5 +1,5 @@
 import unittest
-from src.pycloudlib.index import Scaffold, LegacyScaffold
+from src.pycloudlibTest_Terre8055.index import Scaffold, LegacyScaffold
 
 class TestScaffold(unittest.TestCase):
 
