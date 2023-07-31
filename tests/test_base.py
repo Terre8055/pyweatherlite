@@ -1,5 +1,5 @@
 import unittest
-from src.pycloudlib.Base import BaseClass
+from src.pycloudlib_Terre8055.Base import BaseClass
 
 
 class TestBaseClass(unittest.TestCase):
