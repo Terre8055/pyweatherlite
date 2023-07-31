@@ -1,3 +1,6 @@
+"""BaseClass module establishes methods to seek longitude and latitude coordinates"""
+
+
 class BaseClass:
 	"""This class defines the base model for getting cooords"""
 

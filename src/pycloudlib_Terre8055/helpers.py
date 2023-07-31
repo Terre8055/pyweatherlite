@@ -1,4 +1,4 @@
-from Base import BaseClass
+from .Base import BaseClass
 import requests as rq
 
 
