@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pycloudlibTest_Terre8055',
+    name='pyweatherlite',
     version='0.0.1',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'pycloudlib = pycloudlibTest_Terre8055.index:main',
+            'pyweatherlite = pyweatherlite.index:main',
         ],
     },
     # Other metadata like author, description, etc.
@@ -19,6 +19,6 @@ setup(
     description='A lightweight python library to extract weather data',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/Terre8055/pycloudlib',
+    url='https://github.com/Terre8055/pyweatherlite',
     license='MIT',
 )
