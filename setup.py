@@ -17,6 +17,6 @@ setup(
     author='Michael Appiah Dankwah',          # Author name
     author_email='michaelappiah2018@icloud.com',  # Author email
     description='Lightweight package to extract weather data from openweather',
-    url='https://github.com/your_username/pycloudlib',  # URL to the package repository
+    url='https://github.com/Terre8055/pycloudlib',  # URL to the package repository
     license='MIT', 
 )
